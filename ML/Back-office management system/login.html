@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/pace-theme-minimal.css">
+    <link rel="stylesheet" href="static/css/perfect-scrollbar.min.css">
+
+    <!-- page css -->
+
+    <!-- core css -->
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/themify-icons.css" rel="stylesheet">
+    <link href="static/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/app.css" rel="stylesheet">
+    <link href="static/css/login.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body background=".\static\picture\login-background.png" style="background-repeat: no-repeat;background-size: 100%;">
+    <div class="m-h-30 m-v-15">
+        <p class="align-items-center font-size-25 text-white"><img class="logo-size" src=".\static\picture\thumb-20.png">e反诈</p>
+    </div>        
+        <div class="col-md-4 container m-t-75">
+            <div class="card card-shadow" style="background-color:rgb(255,255,255) ;">
+                <div class="card-body">
+                    <div class="p-h-15 p-v-40">
+                       
+                        <p class="font-size-30" style="color: #11258b;margin-left: 25%;">后台管理系统</p>
+                        
+                            <div class="form-group">
+                                <input type="text" id="username" name="username" class="form-control" placeholder="请输入管理员账号">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="password" name="password" class="form-control" placeholder="请输入密码">
+                            </div>
+                            <div class="form-group ">
+                               
+                            
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadiosinline" id="is_l" value="3" style="margin-left:20px ;" checked>&nbsp;&nbsp;&nbsp;&nbsp;低级管理员
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadiosinline" id="is_m"  value="2" style="margin-left:30px ;"> &nbsp;&nbsp;&nbsp;&nbsp;中级管理员
+                                 </label>
+                                <label class="radio-inline">
+                                   <input type="radio" name="optionsRadiosinline" id="is_h"  value="1" style="margin-left:30px ;"> &nbsp;&nbsp;&nbsp;&nbsp;高级管理员
+                                </label>
+                            </div>
+                            <button class="btn btn-block  btn-blue" id="btn_login">登录</button>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="static/js/login.js"></script>
+</body>
+</html>

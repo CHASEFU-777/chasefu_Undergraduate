@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Applicator - Admin Dashboard Template</title>
+
+
+    <!-- core dependcies css -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/pace-theme-minimal.css">
+    <link rel="stylesheet" href="static/css/perfect-scrollbar.min.css">
+
+    <!-- page css -->
+
+    <!-- core css -->
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/themify-icons.css" rel="stylesheet">
+    <link href="static/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app header-default side-nav-dark">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header navbar">
+                <div class="header-container">
+                    <div class="nav-logo">
+                        <a href="">
+                            <div class="logo logo-dark" style="background-image: url('static/image/logo.png')"></div>
+                            <div class="logo logo-white" style="background-image: url('static/image/logo-white.png')"></div>
+                        </a>
+                    </div>
+                    <ul class="nav-left">
+                        <li>
+                            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                    <ul class="nav-right">
+                        
+                        <li class="user-profile dropdown dropdown-animated scale-left">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                <img class="profile-img img-fluid" src="static/picture/thumb-13.jpg" alt="">
+                            </a>
+                            <ul class="dropdown-menu dropdown-md p-v-0">
+                                <li>
+                                    <ul class="list-media">
+                                        <li class="list-item p-15">
+                                            <div class="media-img">
+                                                <img src="static/picture/thumb-13.jpg" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <span class="title text-semibold">Marshall Nichols</span>
+                                                <span class="sub-title">UI/UX Desinger</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-settings p-r-10"></i>
+                                        <span>Setting</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-user p-r-10"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-email p-r-10"></i>
+                                        <span>Inbox</span>
+                                        <span class="badge badge-pill badge-success pull-right">2</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ti-power-off p-r-10"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="m-r-10">
+                            <a class="quick-view-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-format-indent-decrease"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header END -->
+
+            <!-- Side Nav START -->
+            <div class="side-nav expand-lg">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item dropdown ">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href=""><span class="icon-holder">
+                                    <i class="mdi mdi-image-filter-drama"></i>
+                                </span>
+                                <span class="title">我的首页</span></a>
+                             
+                            </a>    
+                        </li>
+                        <li class="side-nav-header">
+                            <span>人员管理</span>
+                        </li>
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">用户管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="active"> 
+                                    <a href="check-users.html" >查看用户资料</a>
+                                </li>
+                                
+                             
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">管理员管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li >
+                                    <a href="check-Hmanagers.html">查看高级管理员</a>
+                                </li>
+                                <li>
+                                    <a href="check-Mmanagers.html">查看中级管理员</a>
+                                </li>
+                                <li >
+                                    <a href="check-Lmanagers.html">查看低级管理员</a>
+                                </li>
+                             
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>数据管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+									<i class="mdi mdi-vector-arrange-above"></i>
+								</span>
+                                <span class="title">案例管理</span>
+                                <span class="arrow">
+									<i class="mdi mdi-chevron-right"></i>
+								</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                
+                                <li>
+                                    <a href="check-cases.html">查看案例</a>
+                                </li>
+                           
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">维权管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-tips.html">查看小贴士</a>
+                                </li>
+                                <li>
+                                    <a href="check-laws.html">查看法律</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">志愿管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-voluntary.html">查看志愿活动</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">题库管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-subject.html">查看题库</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>反馈管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">举报管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-report.html">查看举报</a>
+                                </li>
+                                
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">用户反馈</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-suggests.html">查看用户反馈</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href="summary.html"><span class="icon-holder">
+                                    <i class="mdi mdi-gauge"></i>
+                                </span>
+                                <span class="title">总结</span></a>
+                             
+                            </a>    
+                        </li>                                        
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+             <!-- Page Container START -->
+             <div class="page-container">
+                <!-- Quick View START -->
+                <div class="quick-view">
+                   
+                    <div class="tab-content scrollable">
+                       
+                        <!-- chat START -->
+                        <div id="quick-view-chat" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-chat chat">
+                                
+                            </div>    
+                        </div>
+                        <!-- chat END -->
+                        <!-- activity START -->
+                        <div id="activity" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-activity">
+                               
+                            </div>
+                        </div>
+                        <!-- activity END -->
+                    </div>
+                </div>
+                <!-- Side Panel END -->
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                              
+                                <div class="card" style="width: 150%;">
+                                    <div style="padding: 10px 10px 10px;">
+                                       
+                                       <div class="input-group">
+                                            <div class="input-group" style="margin-top: 10px;">
+                                                <a href="check-users.html"><——返回</a>  
+                                             
+                                            </div>                                                                  
+                                        </div>
+                                        <div class="input-group">
+                                            <div class="input-group" style="margin-top: 10px;margin-left: 45%;" >
+                                                <h3>修改用户资料</h3>
+                                            </div>    
+                                            <form class="form-inline" role="form" style="margin-top:50px;">
+                                                <div class="form-horizontal" style="margin-left: 150px;">
+                                                    <div class="form-group">
+                                                        <label for="id" class="col-sm-4 control-label">id</label>
+                                                         <div class="col-sm-8">
+                                                            <input type="text" class="form-control" id="id" readonly="readonly" >
+                                                         </div>
+                                                     </div><br/>
+                                                    <div class="form-group">
+                                                        <label for="username" class="col-sm-4 control-label" >账号</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" id="username" >
+                                                        </div>
+                                                    </div><br/>
+                                                    <div class="form-group">
+                                                        <label for="nickname" class="col-sm-4 control-label">昵称</label>
+                                                        <div class="col-sm-8">
+                                                          <input type="text" class="form-control" id="nickname" >
+                                                         
+                                                        </div>
+                                                      </div><br/>
+                                                    
+                                                
+                                                  
+                                                    <div class="form-group">
+                                                        <label for="data" class="col-sm-4 control-label">注册日期</label>
+                                                        <div class="col-sm-8">
+                                                        <input type="text" class="form-control" id="date" readonly="readonly" >
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                                
+                                                
+                                                      
+                                                <div class="form-horizontal" style="margin-left:200px;">
+                                                  
+                                                    <div class="form-group ">
+                                                        <label for="sex" class="col-sm-4 control-label">性别</label>
+                                                    
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optionsRadiosinline" id="man" value="0" style="margin-left:20px ;" checked>&nbsp;&nbsp;&nbsp;&nbsp;男
+                                                        </label>
+                                                        <label class="radio-inline">
+                                                           <input type="radio" name="optionsRadiosinline" id="woman"  value="1" style="margin-left:30px ;"> &nbsp;&nbsp;&nbsp;&nbsp;女
+                                                        </label>
+                                                    </div><br/>
+                                                  
+                                                    <div class="form-group">
+                                                        <label for="email" class="col-sm-4 control-label">邮箱</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="email" name="" id="email" class="form-control" value="" required="required" title="">
+                                                        </div>
+                                                    </div> <br/>                                            
+                                                    <div class="form-group">
+                                                        <label for="birth" class="col-sm-4 control-label">出生年月</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="date" name="" id="birth" class="form-control" value="" required="required" title="">
+                                                        </div>
+                                                    </div><br/>
+                                                    <form role="form">
+                                                        <div class="form-group">
+                                                          <label for="area" class="col-sm-4 control-label">地域</label>
+                                                          <select class="form-control" id="area" style="width: 165px;margin-left: 15px;" >
+                                                            <option>北京</option>
+                                                            <option>天津</option>
+                                                            <option>河北</option>
+                                                            <option>山西</option>
+                                                            <option>内蒙古</option>
+                                                            <option>辽宁</option>
+                                                            <option>吉林</option>
+                                                            <option>黑龙江</option>
+                                                            <option>上海</option>
+                                                            <option>江苏</option>
+                                                            <option >浙江</option>
+                                                            <option>安徽</option>
+                                                            <option>福建</option>
+                                                            <option>江西</option>
+                                                            <option>山东</option>
+                                                            <option>河南</option>
+                                                            <option>湖北</option>
+                                                            <option>湖南</option>
+                                                            <option>广东</option>
+                                                            <option>广西</option>
+                                                            <option>海南</option>
+                                                            <option>重庆</option>
+                                                            <option>四川</option>
+                                                            <option>贵州</option>
+                                                            <option>云南</option>
+                                                            <option>西藏</option>
+                                                            <option>陕西</option>
+                                                            <option>甘肃</option>
+                                                            <option>青海</option>
+                                                            <option>宁夏</option>
+                                                            <option>新疆</option>
+                                                            <option>台湾</option>
+                                                            <option>香港</option>
+                                                            <option>澳门</option>
+                                                            <option>其他</option>
+                                                          </select>
+                                                         
+                                                        </div>
+                                                      </form>
+                                                </div>
+                                                </div> 
+                                            </form><br/><br/> <br/>   
+                                               
+                                                <div class="form-group" style="margin-left:45%;">
+                                                    <div class="col-sm-10 col-sm-offset-2">
+                                                        <button type="submit" class="btn btn-primary" id="btn_change_user">确认修改</button>
+                                                    </div>
+                                                </div>
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="content-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                  
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+
+    <script src="static/js/vendor.js"></script>
+
+    <script src="static/js/app.min.js"></script>
+
+    <!-- page js -->
+    <script src="static/js/Chart.min.js"></script>
+    <script src="static/js/jquery.sparkline.min.js"></script>
+    <script src="static/js/changeuserlist.js"></script>
+    
+</body>
+
+</html>

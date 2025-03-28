@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DifferentialDiagnosisOfDiabetes</title>
+
+
+    <!-- core dependcies css -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/pace-theme-minimal.css">
+    <link rel="stylesheet" href="static/css/perfect-scrollbar.min.css">
+
+    <!-- page css -->
+
+    <!-- core css -->
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/themify-icons.css" rel="stylesheet">
+    <link href="static/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/app.css" rel="stylesheet">
+    <link href="static/css/page.css" rel="stylesheet">
+ 
+	
+</head>
+
+<body>
+    <div class="app header-default side-nav-dark">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header navbar">
+                <div class="header-container">
+                    <div class="nav-logo">
+                        <a href="">
+                            <div class="logo logo-dark" style="background-image: url('static/image/logo.png')"></div>
+                            <div class="logo logo-white" style="background-image: url('static/image/logo-white.png')"></div>
+                        </a>
+                    </div>
+                    <ul class="nav-left">
+                        <li>
+                            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                    <ul class="nav-right">
+                        
+                        <li class="user-profile dropdown dropdown-animated scale-left">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                <img class="profile-img img-fluid" src="static/picture/thumb-13.jpg" alt="">
+                            </a>
+                        </li>    
+                       <li>
+                                    <a href="login.html">
+                                        <i class="ti-power-off p-r-5"></i>
+                                        <span>退出</span>
+                                    </a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header END -->
+
+            <!-- Side Nav START 左侧导航栏 -->
+            <div class="side-nav expand-lg">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href=""><span class="icon-holder">
+                                    <i class="mdi mdi-image-filter-drama"></i>
+                                </span>
+                                <span class="title">我的首页</span></a>
+                             
+                            </a>    
+                        </li>
+                        <li class="side-nav-header">
+                            <span>人员管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">用户管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-users.html" >查看用户资料</a>
+                                </li>
+                                
+                             
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">管理员管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-Hmanagers.html">查看高级管理员</a>
+                                </li>
+                                <li >
+                                    <a href="check-Mmanagers.html">查看中级管理员</a>
+                                </li>
+                                <li >
+                                    <a href="check-Lmanagers.html">查看低级管理员</a>
+                                </li>
+                             
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>数据管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+									<i class="mdi mdi-vector-arrange-above"></i>
+								</span>
+                                <span class="title">病因</span>
+                                <span class="arrow">
+									<i class="mdi mdi-chevron-right"></i>
+								</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                               
+                                <li>
+                                    <a href="check-causes.html">查看病因</a>
+                                </li>
+                             
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">并发症种类</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-types.html">查看并发症种类</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">临床表现</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-clinicalpictures.html">查看临床表现</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">治疗方法</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-treatments.html">查看治疗方法</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>糖尿病概述</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">病因</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dcauses.html">查看病因</a>
+                                </li>
+                                
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">临床表现</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dpictures.html">查看临床表现</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">检查诊断</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dchecks.html">查看检查</a>
+                                </li>
+                                <li>
+                                    <a href="check-ddiagnosises.html">查看诊断</a>
+                                </li>
+                                <li>
+                                    <a href="check-dddiagnosises.html">查看鉴别诊断</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">治疗方法</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dtreatments.html">查看治疗方法</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href="summary.html"><span class="icon-holder">
+                                    <i class="mdi mdi-gauge"></i>
+                                </span>
+                                <span class="title">参数中心</span></a>
+                             
+                            </a>    
+                        </li>                                        
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                <!-- Quick View START -->
+                <div class="quick-view">
+                   
+                    <div class="tab-content scrollable">
+                       
+                        <!-- chat START -->
+                        <div id="quick-view-chat" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-chat chat">
+                                
+                            </div>    
+                        </div>
+                        <!-- chat END -->
+                        <!-- activity START -->
+                        <div id="activity" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-activity">
+                               
+                            </div>
+                        </div>
+                        <!-- activity END -->
+                    </div>
+                </div>
+                <!-- Side Panel END -->
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="row">
+                                     
+                                                  
+                                    <div class="col-lg-6">
+                                         <div class="card" style="width: 310%;">
+                                       <div style="padding: 10px 50px 10px;">
+                                       
+                                            <div class="input-group">
+                                                
+                                        <div class="input-group" style="margin-top: 10px;margin-left: 800px;">
+                                            <input type="text" class="form-control" style="height:37px" id="check" placeholder="输入账号/用户名/邮箱关键词">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button" id="btn_check">搜索</button>
+                                            </span>
+                                            <button class="btn btn-default" type="button" id="btn_operate" ><a href="user-operate.html">批量处理</a></button> 
+                                        </div>   
+                                    
+                                    
+                                        
+                                            <table class="table table-bordered table-hover" style="table-layout: fixed">
+                                                <thead>
+                                                    <tr >
+                                                        <th  style="width:50px;text-align: center;" >id</th>
+                                                        <th  style="width:150px ;text-align: center;">种类</th>
+                                
+                                                        <th style="width:400px ;text-align: center;">介绍</th>
+                                                        <th style="width:150px ;text-align: center;">操作</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="tb" style="text-overflow: ellipsis;overflow: hidden;">
+                                             
+                                                </tbody>
+                                            </table>
+                                            <div style="width:100% ;text-align: center;font-size: 20px;">
+                                                <label id="alert" for="alert" ></label></div>
+                                                <ul class="pagination" > 
+                                               <li ><a id="last">&laquo;</a></li></ul>
+                                               <ul class="pagination" id="pageF" style="margin-left: 5px;margin-right: 5px;">
+                                                
+                                                <li><a href="check-ddiagnosises.html?1">1</a></li>
+                                                <li id="p2"><a href="check-ddiagnosises.html?2">2</a></li>
+                                                
+                                               </ul>
+                                                <ul class="pagination" id="page1" >...</ul>
+                                                
+                                                <ul class="pagination" id="pageM" style="margin-left: 5px;margin-right: 5px;">
+                                                    <li name="lastpage"><a href="check-ddiagnosises.html?3">3</a></li>
+                                                    </ul>
+                                                <ul class="pagination" id="page2" >...</ul>
+                                                <ul class="pagination" id="pageL" style="margin-left: 5px;margin-right: 5px;">
+                                                    <li name="lastpage"><a href="check-ddiagnosises.html?3">3</a></li>
+                                                    </ul> 
+                                               
+                                               <ul class="pagination">
+                                               <li ><a id="next">&raquo;</a></li></ul>
+                                                
+                                               </div>
+                                               <div class="col-lg-6">
+                                                <div class="input-group">
+                                                    <ul id="text-page" style="font-size: 15px;"></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <ul class="pagination">
+                                                          <select class="form-control" id="select-page" style="width: 70px;margin-left: 15px;" >
+                                                  </select> 
+                                                    </ul>
+                                                        <ul class="pagination">    
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button" id="go">Go</button>
+                                                            </span>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                       </div>
+                                     </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="content-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                  
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+
+    <script src="static/js/vendor.js"></script>
+
+    <script src="static/js/app.min.js"></script>
+
+    <!-- page js -->
+    <script src="static/js/Chart.min.js"></script>
+    <script src="static/js/jquery.sparkline.min.js"></script>
+    <script src="static/js/getdddiagnosiseslist.js"></script>
+
+</body>
+
+</html>

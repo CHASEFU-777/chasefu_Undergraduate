@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Back-office</title>
+
+
+    <!-- core dependcies css -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/pace-theme-minimal.css">
+    <link rel="stylesheet" href="static/css/perfect-scrollbar.min.css">
+
+    <!-- page css -->
+
+    <!-- core css -->
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/themify-icons.css" rel="stylesheet">
+    <link href="static/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/app.css" rel="stylesheet">
+    <link href="static/css/app.css" rel="stylesheet">
+    <link href="static/css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app header-default side-nav-dark">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header navbar">
+                <div class="header-container">
+                    <div class="nav-logo">
+                        <a href="">
+                            <div class="logo logo-dark" style="background-image: url('static/image/logo.png')"></div>
+                            <div class="logo logo-white" style="background-image: url('static/image/logo-white.png')"></div>
+                        </a>
+                    </div>
+                    <ul class="nav-left">
+                        <li>
+                            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                    <ul class="nav-right">
+                        
+                        <li class="user-profile dropdown dropdown-animated scale-left">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                <img class="profile-img img-fluid" src="static/picture/thumb-13.jpg" alt="">
+                            </a>
+                           
+                        </li>
+                        <li class="align-items-center">
+                            <a href="login.html" >
+                                <i class="ti-power-off p-r-5"></i>
+                                <span>退出</span>
+                            
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header END -->
+
+            <!-- Side Nav START -->
+            <div class="side-nav expand-lg">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href=""><span class="icon-holder">
+                                    <i class="mdi mdi-image-filter-drama"></i>
+                                </span>
+                                <span class="title">我的首页</span></a>
+                             
+                            </a>    
+                        </li>
+                        <li class="side-nav-header">
+                            <span>人员管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">用户管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-users.html" >查看用户资料</a>
+                                </li>
+                                
+                             
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-grid-large"></i>
+                                </span>
+                                <span class="title">管理员管理</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-Hmanagers.html">查看高级管理员</a>
+                                </li>
+                                <li >
+                                    <a href="check-Mmanagers.html">查看中级管理员</a>
+                                </li>
+                                <li >
+                                    <a href="check-Lmanagers.html">查看低级管理员</a>
+                                </li>
+                             
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>数据管理</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+									<i class="mdi mdi-vector-arrange-above"></i>
+								</span>
+                                <span class="title">病因</span>
+                                <span class="arrow">
+									<i class="mdi mdi-chevron-right"></i>
+								</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                               
+                                <li>
+                                    <a href="check-causes.html">查看病因</a>
+                                </li>
+                             
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">并发症种类</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-types.html">查看并发症种类</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">临床表现</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-overviews.html">查看临床表现</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-vector-arrange-above"></i>
+                                </span>
+                                <span class="title">治疗方法</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-treatments.html">查看治疗方法</a>
+                                </li>
+                              
+                              
+                            </ul>
+                        </li>
+                        <li class="side-nav-header">
+                            <span>糖尿病概述</span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">病因</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dcauses.html">查看病因</a>
+                                </li>
+                                
+                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">临床表现</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dpictures.html">查看临床表现</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">检查诊断</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dchecks.html">查看检查</a>
+                                </li>
+                                <li>
+                                    <a href="check-ddiagnosises.html">查看诊断</a>
+                                </li>
+                                <li>
+                                    <a href="check-dddiagnosises.html">查看鉴别诊断</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="mdi mdi-file-outline"></i>
+                                </span>
+                                <span class="title">治疗方法</span>
+                                <span class="arrow">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="check-dtreatments.html">查看治疗方法</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <a href="summary.html"><span class="icon-holder">
+                                    <i class="mdi mdi-gauge"></i>
+                                </span>
+                                <span class="title">参数中心</span></a>
+                             
+                            </a>    
+                        </li>                                        
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+             <!-- Page Container START -->
+             <div class="page-container">
+                <!-- Quick View START -->
+                <div class="quick-view">
+                   
+                    <div class="tab-content scrollable">
+                       
+                        <!-- chat START -->
+                        <div id="quick-view-chat" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-chat chat">
+                                
+                            </div>    
+                        </div>
+                        <!-- chat END -->
+                        <!-- activity START -->
+                        <div id="activity" role="tabpanel" class="tab-pane fade">
+                            <div class="quick-view-activity">
+                               
+                            </div>
+                        </div>
+                        <!-- activity END -->
+                    </div>
+                </div>
+                <!-- Side Panel END -->
+          
+               
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card" style="width: 150%;" >
+                                    <div class="photo" style="margin-left: 45%;margin-top: 50px;">
+                                        <img src="static\picture\thumb-13.jpg" >   
+                                    </div>
+                                    <form class="form-inline" role="form"  >
+                                        <div class="form-horizontal"  style="margin-top: 20px;width: 100%;text-align: center;">
+                                            <div class="form-group" style="margin-left: 35%;">
+                                                <label for="username" class=" control-label" style="width: 100px;color: #000;font-size: 16px;">账号</label>
+                                                <div >
+                                                    <input type="text" class="form-control" id="username1" name="username" value="">
+                                                
+                                                </div>
+                                            </div> <br/>
+                                        </div> 
+                                    </form><br/>      
+                                            
+                                            <div class=" col-sm-offset-2" style="margin-left:45%;">
+                                                <button type="submit" class="btn btn-primary" id="btn_change" data-toggle="modal" data-target="#myModal">修改密码</button>
+                                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                            <h4>修改密码</h4>
+                                                                
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <form class="form-inline" role="form" style="margin-top:50px;margin-left: 50px;" >
+                                                                    <div class="form-horizontal" >
+                                                                        <div class="form-group" >
+                                                                        <label for="username" class=" control-label" style="width: 100px;">原密码</label>
+                                                                        <div >
+                                                                            <input type="password" class="form-control" id="oldPwd" name="oldPwd" value="">
+                                                                        
+                                                                        </div>
+                                                                    </div> <br/>
+                                                                    <div class="form-horizontal" >
+                                                                    
+                                                                    <div class="form-group">
+                                                                            <label for="input" class=" control-label"  style="width: 100px;">新密码</label>
+                                                                            <div >
+                                                                                <input type="password" name="newPwd" id="newPwd" class="form-control"  value="">
+                                                                            </div>
+                                                                    </div><br/>
+
+                                                                    </div>
+                                                                    <div class="form-horizontal" >
+                                                                        <div class="form-group" >
+                                                                        <label for="username" class=" control-label" style="width: 100px;">确认密码</label>
+                                                                        <div >
+                                                                            <input type="password" class="form-control" id="rnewPwd" name="rnewPwd" value="">
+                                                                        
+                                                                        </div>
+                                                                    </div> <br/>
+                                                                    
+                                                                    </div> </div>
+                                                                    </form>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" 
+                                                                        data-dismiss="modal">关闭
+                                                                </button>
+                                                                <button type="button" class="btn btn-primary" id="btn_change_password">
+                                                                    提交更改
+                                                                </button>
+                                                            </div>
+                                                        </div><!-- /.modal-content -->
+                                                    </div><!-- /.modal-dialog -->
+                                                </div><!-- /.modal -->
+                                            
+                                            </div>
+                                            <div class="form-group " style="margin-left: 5%;margin-top: 50px;">
+                                                <text style="font-size: 15px;color: #000;">权限说明</text>
+                                            </div>
+                                            <div class="form-group " style="margin-left: 5%;margin-top: 10px;">
+                                
+                                                <text>账号管理权限</text>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all" value="3" style="margin-left:30px ;" checked  onclick="return false;">&nbsp;&nbsp;&nbsp;&nbsp;修改、删除用户信息
+                                                </label>
+                                                
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="no"  value="1" style="margin-left:30px ;"   onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;新增高级管理员
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_h"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;新增中级低级管理员
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;新增低级管理员
+                                                </label>
+                                            </div>
+                                            <div class="form-group " style="margin-left: 5%;" >
+                                                <text>案例管理权限</text>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;新增、修改、删除案例分类
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_l"  value="1" style="margin-left:30px ;"   onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;上传案例
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;修改、删除、审查案例
+                                                </label>
+                                            </div>
+                                            <div class="form-group "  style="margin-left: 5%;">
+                                                <text>维权管理权限</text>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_l"  value="1" style="margin-left:30px ;"   onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;上传小贴士
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;修改、删除、审查小贴士
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_l"  value="1" style="margin-left:30px ;"   onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;上传法律
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;修改、删除、审查法律
+                                                </label>
+                                            </div>
+                                            <div class="form-group " style="margin-left: 5%;">
+                                                <text>志愿管理权限</text>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_l"  value="1" style="margin-left:30px ;"  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;上传志愿
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;修改、删除、审查志愿
+                                                </label>
+                                            </div>
+                                            <div class="form-group " style="margin-left: 5%;margin-bottom: 20px;">
+                                                <text>反馈管理权限</text>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="is_l"  value="1" style="margin-left:30px ;"  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;处理举报
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" name="optionsRadiosinline" id="all"  value="1" style="margin-left:30px ;" checked  onclick="return false;"> &nbsp;&nbsp;&nbsp;&nbsp;处理建议
+                                                </label>
+                                            </div>
+                                        
+                                </div>
+                                </div>
+                            </div>
+                           
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="content-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                           
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+    <script >
+        
+        document.getElementById("username1").value = localStorage.getItem("username");
+        
+        
+        </script>
+    <script src="static/js/vendor.js"></script>
+
+    <script src="static/js/app.min.js"></script>
+
+    <!-- page js -->
+    <script src="static/js/Chart.min.js"></script>
+    <script src="static/js/jquery.sparkline.min.js"></script>
+  
+    <script src="static/js/index.js"></script>
+</body>
+
+</html>
